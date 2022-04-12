@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Favicon -->
+   <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+   <!-- Fontawesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0-1/css/all.min.css" integrity="sha512-xEGx3E22YcUzfX525T3KV7SqNexb09E2CckB6lBB/dT930VlbSX9JnQlLiogtSLAl9yGAJGKDu7O1ZanrqljGg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- Stylesheets -->
+   <link rel="stylesheet" href="style.css">
+
+   <title>Skotify - thousand songs at one place</title>
+</head>
+<body>
+   <header class="header">
+      <nav class="navbar">
+         <img class="navbar-logo" src="logo.png" alt="Skotify">
+         <ul>
+            <li>Home</li>
+            <li>Trending</li>
+            <li>Artists</li>
+            <li>My Songlists</li>
+         </ul>
+         <div class="right-nav">
+            <input class="search" type="text" placeholder="🔍 Search Artists, Songs, Albums">
+
+            <button class="btn btn-light btn-w-1">Login</button>
+            <button class="btn btn-light btn-w-2 mx-1">Get <span style="color: red;">Skotify Pro</span></button>
+         </div>
+      </nav>
+   </header>
+
+   <div class="container">
+      <div class="mini-container">
+         
+         <div class="songsList">
+            <h1 class="songlist-title">Trending Songs</h1>
+            <div class="songs">
+            <div class="song-capsule">
+               <img src="logo.png" alt="Cover" height="40" width="40">
+               <span class="song-capsule-title">Vilen Ka Gaana</span>
+               <div>
+                  <span class="song-capsule-timestamp">3:54</span>
+                  <i class="far fa-play-circle"></i>
+            </div>
+            </div>
+            <div class="song-capsule">
+               <img src="logo.png" alt="Cover" height="40" width="40">
+               <span class="song-capsule-title">Vilen Ka Gaana</span>
+               <div>
+                  <span class="song-capsule-timestamp">3:54</span>
+                  <i class="far fa-play-circle"></i>
+            </div>
+            </div>
+            <div class="song-capsule">
+               <img src="logo.png" alt="Cover" height="40" width="40">
+               <span class="song-capsule-title">Vilen Ka Gaana</span>
+               <div>
+                  <span class="song-capsule-timestamp">3:54</span>
+                  <i class="far fa-play-circle"></i>
+            </div>
+            </div>
+            <div class="song-capsule">
+               <img src="logo.png" alt="Cover" height="40" width="40">
+               <span class="song-capsule-title">Vilen Ka Gaana</span>
+               <div>
+                  <span class="song-capsule-timestamp">3:54</span>
+                  <i class="far fa-play-circle"></i>
+            </div>
+            </div>
+            <div class="song-capsule">
+               <img src="logo.png" alt="Cover" height="40" width="40">
+               <span class="song-capsule-title">Vilen Ka Gaana</span>
+               <div>
+                  <span class="song-capsule-timestamp">3:54</span>
+                  <i class="far fa-play-circle"></i>
+            </div>
+            </div>
+            <div class="song-capsule">
+               <img src="logo.png" alt="Cover" height="40" width="40">
+               <span class="song-capsule-title">Vilen Ka Gaana</span>
+               <div>
+                  <span class="song-capsule-timestamp">3:54</span>
+                  <i class="far fa-play-circle"></i>
+            </div>
+            </div>
+            <div class="song-capsule">
+               <img src="logo.png" alt="Cover" height="40" width="40">
+               <span class="song-capsule-title">Vilen Ka Gaana</span>
+               <div>
+                  <span class="song-capsule-timestamp">3:54</span>
+                  <i class="far fa-play-circle"></i>
+            </div>
+            </div>
+            <div class="song-capsule">
+               <img src="logo.png" alt="Cover" height="40" width="40">
+               <span class="song-capsule-title">Vilen Ka Gaana</span>
+               <div>
+                  <span class="song-capsule-timestamp">3:54</span>
+                  <i class="far fa-play-circle"></i>
+            </div>
+            </div>
+
+         </div>
+         
+      </div>
+         
+      <div class="player-container">
+         <div class="player-icons-container">
+            <span class="text-bold text-white mx-1">Vilen Ka Gaana Ek Raat</span>
+         <img height="40" width="100" class="playing-gif" src="playing.gif" alt="">
+      </div>
+            <input id="seekbar" class="seekbar" type="range" min="0" max="100" value="0">
+      <div class="player-icons-container">
+         <i class="fas fa-2x fa-fast-backward"></i>
+         <i id="masterPlay" class="fas fa-2x fa-play"></i> 
+         <i class="fas fa-2x fa-fast-forward"></i>
+      </div>
+
+      </div>
+      
+   </div>
+   </div>
+
+   <footer class="footer">
+      <span>All Copyrights Reserved Skotify Unofficial. 2021-22</sp>
+   </footer>
+</body>
+<!-- Scripts -->
+<script src="script.js"></script>
+
+</html>
